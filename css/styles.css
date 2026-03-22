@@ -144,3 +144,7 @@ p {
 .footer-text {
     color: #f4f4fd;
 }
+
+.portfolio-link {
+    color: inherit;
+}
