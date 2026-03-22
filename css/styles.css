@@ -49,6 +49,10 @@ p {
     color: #2e2f42;
 }
 
+.features-title {
+    text-align: start;
+}
+
 .accent {
     color: #4d5ae5;
 }
@@ -58,9 +62,18 @@ p {
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    color: #2e2f42;
     font-size: 18px;
     letter-spacing: 0.03em;
+    line-height: 1.17;
+    color: #2e2f42;
+}
+
+.footer-logo {
+    color: #f4f4fd;
+}
+
+.footer-logo .accent {
+    color: #4d5ae5;
 }
 
 .nav-link {
@@ -69,6 +82,11 @@ p {
 }
 
 .nav-link.active {
+    color: #404bbf;
+}
+
+.nav-link:hover,
+.nav-link:focus {
     color: #404bbf;
 }
 
@@ -81,9 +99,7 @@ address {
     font-weight: 400;
 }
 
-.nav-link:hover,
 .address-link:hover,
-.nav-link:focus,
 .address-link:focus {
     color: #404bbf;
 }
@@ -105,10 +121,6 @@ address {
     background-color: #404bbf;
 }
 
-.features-title {
-    text-align: start;
-}
-
 .our-team {
     background-color: #f4f4fd;
 }
@@ -126,7 +138,6 @@ address {
     background-color: #2e2f42;
 }
 
-.footer-logo,
 .footer-text {
     color: #f4f4fd;
 }
